@@ -1,1 +1,48 @@
 
+
+/* .card{
+    
+    height: 294px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    box-shadow: 1px 1px 10px black;
+    padding: 12px;
+    margin-right: 40px;
+    transition-duration: 0.5s;
+    /* transition-delay:0.5s ; */
+/* } */
+
+.card {
+    height: 186px;
+    width: 135px;
+    border: 2px solid black;
+    border-radius: 6%;
+    display: inline-block;
+    box-shadow: 1px 1px 10px black;
+    padding: 12px;
+    margin-right: 40px;
+    transition-duration: 0.5s;
+    text-align: center;
+    /* transition-delay: 0.5s; */
+}
+
+img{
+    
+    height: 105px;
+    width: 109px;
+    
+}
+ 
+.card:hover{
+box-shadow: 10px 11px 10px black;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+p{
+    text-transform: capitalize;
+}
